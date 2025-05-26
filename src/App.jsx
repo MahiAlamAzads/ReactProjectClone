@@ -19,9 +19,9 @@ function App() {
 
   return (
     <div className="background">
-      <Container>
+      {/* <Container>
         <NavBar/>
-      </Container>
+      </Container> */}
       <Container>
         <Banner />
       </Container>

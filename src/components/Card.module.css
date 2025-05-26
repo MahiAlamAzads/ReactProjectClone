@@ -1,8 +1,27 @@
 .img {
     background-color: rgb(103, 102, 102);
+
 }
 
 .roundShape {
-    border-radius: 25px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 25px;
+  /* background-image: url("https://img.freepik.com/free-photo/listening-doctor_1098-14944.jpg?semt=ais_hybrid&w=740"); */
+  /* filter: brightness(100%); */
+  background-size: cover;           /* Ensures image covers the div */
+  background-position: center;      /* Keeps image centered */
+  background-repeat: no-repeat;     /* Prevents image repetition */
+  width: 100%;                      /* Full width by default */
+  transition: transform 0.3s ease;  /* Smooth hover effect */
+}
+
+.roundShape:hover {
+  transform: scale(1.02);           /* Slight zoom on hover */
+}
+
+/* Responsive tweak for mobile */
+@media (max-width: 480px) {
+  .roundShape {
+    /* height: 200px;                 Smaller height for small devices */
+    border-radius: 15px;           /* Optional: smaller curve */
+  }
 }

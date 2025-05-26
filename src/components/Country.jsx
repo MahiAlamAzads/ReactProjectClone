@@ -19,7 +19,7 @@ const Country = () => {
         <HeadSubject text={"Explore all  countries in Asia"} />
         <div className={`d-flex flex-wrap justify-content-center gap-3`}>
           {buttons.map((button) => (
-            <button key={button} className={`btn ${styles.button}`}>{button}</button>
+            <button key={button} className={`${styles.button}`}>{button}</button>
           ))}
         </div>
         <div className="d-flex justify-content-center mt-5">

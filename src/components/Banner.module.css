@@ -1,49 +1,109 @@
 .banner {
-    border: 1px solid rgba(193, 37, 162, 0.104);
-    margin-top: 10px;
-    background-image:
-        url("./images/Hero Section.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-top: 0px;
-    border-radius: 12px;
-    height: 100dvh;
-     min-height: clamp(500px, 100vh, 900px);
+  border: 1px solid rgba(193, 37, 162, 0.104);
+  margin-top: 10px;
+  background-image: url("./images/Hero Section.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 0px;
+  border-radius: 12px;
+  height: 100dvh;
+  min-height: clamp(500px, 100vh, 900px);
 }
 
 .toTheWorld {
-    color: rgb(245, 17, 207);
-    font-weight: bold;
+  color: rgb(245, 17, 207);
+  font-weight: bold;
 }
 
 .stay {
-    color: rgb(169, 169, 171);
-    font-size: 1rem;
-    margin-top: 10px;
-    margin-bottom: 20px;
+  color: rgb(169, 169, 171);
+  font-size: 1rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .getStart {
-    border-radius: 25px;
-    padding: 8px 20px;
-    font-weight: 500;
-    transition: all 0.3s ease;
-
+  border-radius: 25px;
+  padding: 8px 20px;
+  font-weight: 500;
+  transition: all 0.3s ease;
 }
 
 .getStart:hover {
-    box-shadow: 0 4px 12px rgba(163, 147, 161, 0.4);
-    /* nice hover effect */
+  box-shadow: 0 4px 12px rgba(163, 147, 161, 0.4);
 }
 
 .h1 {
-    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.556);
-    /* stroke width and color */
-    font-size: 70px;
-    padding-top: 30px;
-    /* height: 50vh; */
+  /* -webkit-text-stroke: 1px rgba(255, 255, 255, 0.556); */
+  font-size: 70px;
+  padding-top: 30px;
 }
-.img{
-    height: 50vh;
+
+.img {
+  height: 50vh;
+}
+
+/* 👇 Responsive design for phones */
+@media (max-width: 500px) {
+  .banner {
+    height: 60vh;
+    padding: 20px;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .h1 {
+    font-size: 60px; /* smaller heading */
+    text-align: start;
+    position: relative;
+    top: -30px;
+    line-height: 70px;
+  }
+.lineBreak {
+  display: block; /* makes it break to a new line on desktop */
+}
+  .stay {
+    font-size: 1.5rem;
+    text-align: start;
+    line-height: 50px;
+  }
+
+  .getStart {
+    display: block;
+    margin: 0 auto;
+    padding: 14px 66px;
+    font-size: 1.3rem;
+  }
+
+.img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  display: none; 
+  overflow: hidden;
+  filter: brightness(60%);
+}
+.imgCont{
+    display: none;
+}
+.rowEdit {
+  position: relative;
+}
+
+.colEdit {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* No width or height needed */
+}
+.lineBreak {
+  display: none; /* makes it break to a new line on desktop */
+}
 }
