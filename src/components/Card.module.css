@@ -1,0 +1,8 @@
+.img {
+    background-color: rgb(103, 102, 102);
+}
+
+.roundShape {
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

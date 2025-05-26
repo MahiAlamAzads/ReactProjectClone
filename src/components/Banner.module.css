@@ -1,0 +1,49 @@
+.banner {
+    border: 1px solid rgba(193, 37, 162, 0.104);
+    margin-top: 10px;
+    background-image:
+        url("./images/Hero Section.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 0px;
+    border-radius: 12px;
+    height: 100dvh;
+     min-height: clamp(500px, 100vh, 900px);
+}
+
+.toTheWorld {
+    color: rgb(245, 17, 207);
+    font-weight: bold;
+}
+
+.stay {
+    color: rgb(169, 169, 171);
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.getStart {
+    border-radius: 25px;
+    padding: 8px 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+
+}
+
+.getStart:hover {
+    box-shadow: 0 4px 12px rgba(163, 147, 161, 0.4);
+    /* nice hover effect */
+}
+
+.h1 {
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.556);
+    /* stroke width and color */
+    font-size: 70px;
+    padding-top: 30px;
+    /* height: 50vh; */
+}
+.img{
+    height: 50vh;
+}

@@ -1,0 +1,6 @@
+.heading{
+    color: rgb(245, 17, 207);
+    margin: 10px;
+    text-align: center;
+    letter-spacing: 4px; /* or "0.1em" */
+}

@@ -1,0 +1,45 @@
+    .facebook {
+      background-color: #3b5998;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      color: white;
+      transition: background-color 0.3s ease;
+    }
+    .facebook:hover {
+      background-color: #2d4373;
+      text-decoration: none;
+    }
+    .twitter {
+      background-color: #1da1f2;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      color: white;
+      transition: background-color 0.3s ease;
+    }
+    .twitter:hover {
+      background-color: #0d95e8;
+      text-decoration: none;
+    }
+    .instagram {
+      background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976);
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      color: white;
+      transition: opacity 0.3s ease;
+    }
+    .instagram:hover {
+      opacity: 0.9;
+      text-decoration: none;
+    }
