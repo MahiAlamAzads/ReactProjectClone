@@ -19,7 +19,7 @@
 }
 
 /* Responsive tweak for mobile */
-@media (max-width: 480px) {
+@media (max-width: 700px) {
   .roundShape {
     /* height: 200px;                 Smaller height for small devices */
     border-radius: 15px;           /* Optional: smaller curve */

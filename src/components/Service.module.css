@@ -1,4 +1,4 @@
-@media (max-width: 501px) {
+@media (max-width: 700px) {
   .wrapServices{
     display: flex;
     flex-direction: column;
